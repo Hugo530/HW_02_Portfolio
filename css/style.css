@@ -188,10 +188,9 @@ h2 {
 
 
 footer ul {
-  align-items: flex-end;
+  align-items: center;
   display: flex;
   flex-direction: row;
-  gap: 20px;
   list-style-type: none;
 }
 

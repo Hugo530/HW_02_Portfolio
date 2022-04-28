@@ -52,7 +52,7 @@ text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0
 /* Hide the link that should open and close the navbar on small screens */
 .navbar .icon {
   display: none;
-} */
+} 
 
 main {
   display: flex;
@@ -60,15 +60,15 @@ main {
   flex-direction: row;
   align-items: center;
   background-color: var(--bg);
-}
+} 
+ 
 
-/* About Me */
 #aboutMe {
   display: flex;
   position: relative;
   flex-wrap: wrap;
   flex-direction: row;
-}
+} 
 
 aside {
   display: flex;
@@ -84,13 +84,12 @@ h2 {
   align-items: center;
   padding-right: 25px;
   font-size: 42px;
-  color: var(--maroon);
-  border-right: 4px solid var(--maroon);
-  background-color: var(--bg);
+  color: black;
+
 }
 
 .text {
-  text-indent: 40px;
+  
   display: flex;
   width: 80%;
   font-size: 22px;
@@ -98,7 +97,7 @@ h2 {
   padding-left: 14px;
 }
 
-/* Work */
+ 
 #work {
   display: flex;
   position: relative;
@@ -125,13 +124,13 @@ h2 {
 }
 
 #project {
-  /* position: relative; */
+  position: relative;
   display: flex;
   max-width: 300px;
   flex-direction: row;
   border: 6px solid lightgray;
   padding-left: 10px;
-  color: white;
+ 
   
 }
 
@@ -141,11 +140,11 @@ h2 {
   font-weight: bold;
   padding: 5px 10px;
   text-decoration: inherit;
-  background-color: var(--cyan);
+  color: white;
   z-index: 1;
   margin-top: 21px;
   margin-left: 21px;
-  color: white;
+ 
 }
 
 #proj2 {
@@ -154,11 +153,11 @@ h2 {
   font-weight: bold;
   padding: 5px 10px;
   text-decoration: inherit;
-  background-color: var(--cyan);
+  color: white;
   z-index: 1;
   margin-top: 21px;
   margin-left: 21px;
-  color: white;
+  
 }
 
 #proj3 {
@@ -167,11 +166,11 @@ h2 {
   font-weight: bold;
   padding: 5px 10px;
   text-decoration: inherit;
-  background-color: var(--cyan);
+  color: white;
   z-index: 1;
   margin-top: 21px;
   margin-left: 21px;
-  color: white;
+ 
 }
 
 #proj4 {
@@ -180,35 +179,32 @@ h2 {
   font-weight: bold;
   padding: 5px 10px;
   text-decoration: inherit;
-  background-color: var(--cyan);
+  color: white;
   z-index: 1;
   margin-top: 21px;
   margin-left: 21px;
-  color: white;
-}
+  
+} 
 
-#contact {
-  display: flex;
-  width: 15%;
-  flex-wrap: wrap;
-  padding-right: 8px;
-  margin-left: 1%;
-}
 
 footer ul {
-  align-items: center;
+  align-items: flex-end;
   display: flex;
   flex-direction: row;
-  gap: 25px;
-  padding-bottom: 15px;
-  font-size: 22px;
-  
+  gap: 20px;
+  list-style-type: none;
 }
 
 footer li a {
   display: flex;
   flex-direction: row;
+  font-weight: 600;
+  font-size: 20px;
   color: black;
-  
+  text-decoration: inherit;
+  margin-right: 30px;
   
 }
+
+
+

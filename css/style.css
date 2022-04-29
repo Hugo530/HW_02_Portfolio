@@ -186,11 +186,19 @@ h2 {
   
 } 
 
+#contact {
+  display: flex;
+  width: 15%;
+  flex-wrap: wrap;
+  padding-right: 8px;
+  margin-left: 1%;
+}
 
 footer ul {
   align-items: center;
   display: flex;
   flex-direction: row;
+  gap: 20px;
   list-style-type: none;
 }
 
@@ -199,10 +207,10 @@ footer li a {
   flex-direction: row;
   font-weight: 600;
   font-size: 20px;
-  color: black;
+  color: var(--maroon);
+  border-bottom: 3px solid var(--maroon);
   text-decoration: inherit;
   margin-right: 30px;
-  
 }
 
 
